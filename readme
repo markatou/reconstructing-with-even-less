@@ -1,0 +1,8 @@
+This is the associated artifact for the paper "Reconstructing with Even Less:
+Leakage Amplification and Graph Drawing". 
+To run our attack:
+
+python3 attack.py -points=cali_50 -dist=uniform -p=1
+
+
+You also have the option of reconstructing a different dataset in {cali_50, grid, dg, crg, nh, boat} with option -points, using different query distribution {beta, gaussian, uniform} with option -dist, and sampling a different percentage of responses with option -p. 
